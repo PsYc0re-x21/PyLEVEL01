@@ -1,0 +1,92 @@
+# String output expects to finish line within one sentences. adding more lines will require """ 3 colons before and after each lines. 
+~~~~~~~~~~~~~~~
+
+# replace method:
+
+name = "root user"
+print (name.replace("root", "unroot"))
+print(name) --> instead.==
+
+name = "root user"
+replaced= name.replace("root", "unroot")
+print(replaced)
+
+### Slicing:
+
+url = "https://google.com"
+print(url[8:])
+url = "https://google.com"
+print(url[8:-4]) --> google 
+
+## count
+
+name = "root user root admin"
+print(name.count("root")) --> 2
+
+## strip removes spaces on beginning and end of the string 
+
++++~~###F string###~~+++
+
+name = "root"
+print(f"User name: {name}, {49/14:.2f}")
+
+##
+name = "root"
+print("User name is : {}".format(name)) 
+
++++~~~ Input ~~~+++
+
+# Python treats all user input as a string. 
+
+
++++~~~Else if~~~+++
+# Helps to check multiple statements 
+
+
++++~~~ LOOPS ~~~+++
+
+for i in range (1,12,2): 
+--> Means starts from 1, ends at 11 (number specified - 1), incremented by 2 
+
++++~~~ Local to global ~~~+++
+
+def add():
+    global x
+    x=89
+    print(f"Inside function X= {x}")
+
+add()
+print(f"Outside function x= {x}")
+
+
++++~~~ List method ~~~+++
+
+# name.append("new item")
+--> this will add new item at the end of the List
+
+# name.insert(3, 'new item name")
+---> this will add any items at desired location
+
+# name.remove("item name")
+
+# name.pop(index number)
+--> removes specific item 
+
+# name.clear ()
+----> removes everything 
+
+# variable_name= name.index("list item name")
+---> shows the index number of specific list item 
+
+# name.count("item name")
+---> shows how many times the list item is present 
+
+# new_variable= old_variable.copy()
+print(new_variable)
+
+# name.sort()
+print(name)
+--> sorts in ascending order 
+
+# name.sort(reverse=True)
+---> sorts in descending order 
